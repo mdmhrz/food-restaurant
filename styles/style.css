@@ -53,4 +53,69 @@
     opacity: 0.7;
 }
 
-.btn-container {}
+#card-box {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card {
+    margin-top: 20px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-group {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pizza {
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 5px 10px;
+}
+
+.pizza-paragraph {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: .7;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.card-heading {
+    width: 50%;
+}
+
+.card-heading p{
+    opacity: .7;
+    margin-bottom: 15px;
+}
+
+.card-heading h1{
+    font-size: 32px;
+}
