@@ -126,6 +126,7 @@
     display: flex;
     align-items:start;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .about-left{
@@ -178,4 +179,40 @@
     color: black;
     cursor: pointer;
 
+}
+
+#social{
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.8git), rgba(255, 255, 255, 0.9)), /* Transparent overlay */
+    url('../assets/social-bg.png'); /* Background image */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#social > div{
+    width: 60%;
+    text-align: center;
+}
+
+#social > div h1{
+    margin-bottom: 20px;
+    padding: 10px 20%;
+    font-size: 30px;
+}
+
+#social > div p{
+    margin-bottom: 30px;
+}
+
+#social >div .follow{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+    margin-bottom: 20px;
 }
