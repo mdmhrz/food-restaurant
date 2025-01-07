@@ -183,7 +183,7 @@
 
 #social{
     width: 100%;
-    background: linear-gradient(rgba(255, 255, 255, 0.8git), rgba(255, 255, 255, 0.9)), /* Transparent overlay */
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), /* Transparent overlay */
     url('../assets/social-bg.png'); /* Background image */
     background-repeat: no-repeat;
     background-position: center;
